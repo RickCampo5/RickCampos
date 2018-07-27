@@ -1,0 +1,98 @@
+ body, html{
+   margin: 0;
+   padding: 0;
+   font-family: Avenir;
+ }
+
+ .first{
+   display:flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 50px;
+ }
+
+ .head{
+   text-align: center;
+   width: 100vw;
+   background-color: #ffffff;
+   font-size: 2em;
+   color: rgb(0, 0, 0);
+   margin-bottom: -70px;
+ }
+
+ h4{
+   font-size: 1.7em;
+   margin-bottom: 0px;
+ }
+
+ .second{
+   display: flex;
+   flex-direction: column;
+   background-color: #2065d6;
+   justify-content: center;
+   align-items: center;
+ }
+
+ .cardContainer{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+ }
+
+ .icon{
+   font-size: 2.5em;
+   color: black;
+   margin-left: 20px;
+  transition: all .4s ease-in-out;
+ }
+
+ .icon:hover{
+  transform: scale(1.1)
+ }
+
+ #personal-foto{
+  width:200px;
+  height: 200px;
+  border-radius: 100px;
+}
+
+.who{
+  text-align: center;
+  color: #fff;
+  font-size: 1.2em;
+}
+
+.card{
+  margin-left: 50px;
+  text-align: center;
+  font-size: 1.2em;
+  color: #fff;
+}
+
+.contact{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  margin-left: 50px;
+  text-align: center;
+  color: black;
+  font-size: 1.2em;
+  height: 80px;
+}
+
+.projectImg{
+  width: 450px;
+  height: 300px;
+  border-radius: 20px;
+  transition: all .4s ease-in-out;
+}
+.email{
+  margin-left: 20px;
+}
+
+.projectImg:hover{
+  transform: scale(1.1)
+}
