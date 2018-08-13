@@ -87,8 +87,8 @@
 }
 
 .projectImg{
-  width: 450px;
-  height: 300px;
+  width: 350px;
+  height: 200px;
   border-radius: 20px;
   transition: all .4s ease-in-out;
 }
