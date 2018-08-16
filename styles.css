@@ -2,6 +2,7 @@
    margin: 0;
    padding: 0;
    font-family: Avenir;
+   background-image: url("https://res.cloudinary.com/dfjzvlip6/image/upload/v1534425538/assets/2996704-programming-php-programming-language-syntax-highlighting-minified-knowledge-coding-code-html-computer-pixels-computer-screen-logic___mixed-wallpapers.jpg")
  }
 
  .first{
@@ -10,27 +11,27 @@
    justify-content: center;
    align-items: center;
    margin-bottom: 50px;
+   color: #fff;
  }
 
  .head{
    text-align: center;
    width: 100vw;
-   background-color: #ffffff;
    font-size: 2em;
-   color: rgb(0, 0, 0);
    margin-bottom: -70px;
  }
 
  h4{
    font-size: 1.7em;
    margin-bottom: 0px;
+   color: #fff;
  }
 
  .second{
    display: flex;
    flex-wrap: wrap;
    flex-direction: column;
-   background-color: #2065d6;
+   background-color: rgba(0, 0, 0, 0.8);
    justify-content: center;
    align-items: center;
  }
@@ -45,7 +46,7 @@
 
  .icon{
    font-size: 2.5em;
-   color: black;
+   color: #fff;
    margin-left: 20px;
   transition: all .4s ease-in-out;
  }
@@ -53,12 +54,6 @@
  .icon:hover{
   transform: scale(1.1)
  }
-
- #personal-foto{
-  width:200px;
-  height: 200px;
-  border-radius: 100px;
-}
 
 .who{
   text-align: center;
@@ -71,32 +66,52 @@
   text-align: center;
   font-size: 1.2em;
   color: #fff;
+  max-width: 250px;
+}
+
+.desc{
+  font-size: 15px;
+}
+
+h5{
+  font-size: 1.2em;
 }
 
 .contact{
   display: flex;
   flex-direction: row;
-  align-content: center;
-  /* flex-wrap: wrap; */
+  align-items: center;
   justify-content: center;
   margin-left: 50px;
   text-align: center;
-  color: black;
+  color: #fff;
   font-size: 1.2em;
   height: 80px;
 }
 
 .projectImg{
-  width: 350px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
   border-radius: 20px;
   transition: all .4s ease-in-out;
 }
+
+.gameImg{
+  width: 200px;
+  height: 50px;
+  border-radius: 20px;
+  transition: all .4s ease-in-out;
+}
+
 .email{
   margin-left: 20px;
 }
 
 .projectImg:hover{
+  transform: scale(1.1)
+}
+
+.gameImg:hover{
   transform: scale(1.1)
 }
 
